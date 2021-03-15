@@ -70,7 +70,7 @@
                 <img class="developer" src="imgs/hola (2).jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Matías Aquino</h5>
-                    <p class="card-text">Frontend Developer</p>
+                    <p class="card-text">Backend Developer</p>
                 </div>
             </div>
         </div>
@@ -148,21 +148,33 @@
                     <div class="campo">
                         <label for="name">Nombre</label>
                         <input class="input-text" type="text" name='name' placeholder="Nombre">
+                        @error('name')
+                           <h6><strong>{{$message}}</strong></h6>
+                        @enderror
                     </div>
+
                     <div class="campo">
                         <label for="phone">Teléfono</label>
                         <input class="input-text" type="tel" name='phone' placeholder="Teléfono">
+                        @error('phone')
+                           <h6><strong>{{$message}}</strong></h6>
+                        @enderror
                     </div>
 
                     <div class="campo">
                         <label for="email">E-mail</label>
                         <input class="input-text" type="email" name='email' placeholder="Tu correo electrónico">
+                        @error('email')
+                           <h6><strong>{{$message}}</strong></h6>
+                        @enderror
                     </div>
 
                     <div class="campo">
                         <label for="message">Mensaje</label>
                         <textarea class="input-text" name='message'></textarea>
-
+                        @error('message')
+                           <h6><strong>{{$message}}</strong></h6>
+                        @enderror
                     </div>
 
                     <!-- contenedor-campos-->

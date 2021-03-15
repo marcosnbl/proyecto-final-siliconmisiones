@@ -87,7 +87,7 @@
           <img class="card-img-top" src="http://placehold.it/750x450" alt="">
           <div class="card-body">
             <h4 class="card-title">Matias Aquino</h4>
-            <h6 class="card-subtitle mb-2 text-muted">Frontend Developer</h6>
+            <h6 class="card-subtitle mb-2 text-muted">Backend Developer</h6>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
           </div>
           <div class="card-footer">
