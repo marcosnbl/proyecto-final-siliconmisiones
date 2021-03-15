@@ -144,23 +144,23 @@
                 <legend>Contáctanos
                 </legend>
 
-                <div class="contenedor-campos">
+                <div class="contenedor-campos" >
                     <div class="campo">
-                        <label for="">Nombre</label>
+                        <label for="name">Nombre</label>
                         <input class="input-text" type="text" name='name' placeholder="Nombre">
                     </div>
                     <div class="campo">
-                        <label for="">Teléfono</label>
-                        <input class="input-text" type="tel" name='number' placeholder="Teléfono">
+                        <label for="phone">Teléfono</label>
+                        <input class="input-text" type="tel" name='phone' placeholder="Teléfono">
                     </div>
 
                     <div class="campo">
-                        <label for="">E-mail</label>
+                        <label for="email">E-mail</label>
                         <input class="input-text" type="email" name='email' placeholder="Tu correo electrónico">
                     </div>
 
                     <div class="campo">
-                        <label for="">Mensaje</label>
+                        <label for="message">Mensaje</label>
                         <textarea class="input-text" name='message'></textarea>
 
                     </div>
@@ -181,3 +181,10 @@
 
 
 @endsection
+
+@if (session('info'))
+<script>
+  alert("{{session('info')}}");
+</script>
+  
+@endif

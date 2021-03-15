@@ -100,12 +100,6 @@
 
     </div>
     <!-- /.row -->
-    @if (session('info'))
-      <script>
-        alert("{{session('info')}}");
-      </script>
-        
-    @endif
   </div>
   <!-- /.container -->
 @endsection

@@ -26,6 +26,6 @@ class ContactoController extends Controller
     
         Mail::to('matias.aquino.gerega@gmail.com')->send($correo);
 
-        return redirect()->route('contacto.index')->with('info','Mensaje enviado');
+        return redirect()->route('home')->with('info','Mensaje enviado');
     }
 }
