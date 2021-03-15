@@ -8,13 +8,13 @@
   <div class="container">
 
     <!-- Page Heading/Breadcrumbs -->
-    <h1 class="mt-4 mb-3">Titulo
+    <h1 class="mt-4 mb-3">Nuestros Cursos
       <small>Subtitulo</small>
     </h1>
 
     <ol class="breadcrumb">
       <li class="breadcrumb-item">
-        <a href="index.html">Home</a>
+        <a href="/">Home</a>
       </li>
       <li class="breadcrumb-item active">Cursos</li>
     </ol>

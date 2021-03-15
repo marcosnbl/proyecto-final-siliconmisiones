@@ -13,7 +13,7 @@
 
     <ol class="breadcrumb">
       <li class="breadcrumb-item">
-        <a href="index.html">Home</a>
+        <a href="/">Home</a>
       </li>
       <li class="breadcrumb-item active">Contacto</li>
     </ol>
@@ -53,41 +53,59 @@
     <div class="row">
       <div class="col-lg-8 mb-4">
         <h3>Envianos un Mensaje</h3>
-        <form name="sentMessage" id="contactForm" novalidate>
+        <form name="sentMessage" id="contactForm" novalidate action="{{route('contacto.store')}}" method="POST">
+          @csrf
           <div class="control-group form-group">
             <div class="controls">
               <label>Nombre Completo:</label>
-              <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
+              <input type="text" class="form-control" name="name" required data-validation-required-message="Please enter your name.">
               <p class="help-block"></p>
+              @error('name')
+                  <p><strong>{{$message}}</strong></p>
+              @enderror
             </div>
           </div>
           <div class="control-group form-group">
             <div class="controls">
               <label>Numero de Telefono:</label>
-              <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
+              <input type="tel" class="form-control" name="phone" required data-validation-required-message="Please enter your phone number.">
+              @error('phone')
+                  <p><strong>{{$message}}</strong></p>
+              @enderror
             </div>
           </div>
           <div class="control-group form-group">
             <div class="controls">
               <label>Email:</label>
-              <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
+              <input type="email" class="form-control" name="email" required data-validation-required-message="Please enter your email address.">
+              @error('email')
+                  <p><strong>{{$message}}</strong></p>
+              @enderror
             </div>
           </div>
           <div class="control-group form-group">
             <div class="controls">
               <label>Mensaje:</label>
-              <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+              <textarea rows="10" cols="100" class="form-control" name="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+              @error('message')
+                  <p><strong>{{$message}}</strong></p>
+              @enderror
             </div>
           </div>
           <div id="success"></div>
           <!-- Para mensajes Enviados o Fallidos-->
-          <button type="submit" class="btn btn-primary" id="sendMessageButton">Send Message</button>
+          <button type="submit" class="btn btn-primary" id="sendMessageButton">Enviar</button>
         </form>
       </div>
 
     </div>
     <!-- /.row -->
-
+    @if (session('info'))
+      <script>
+        alert("{{session('info')}}");
+      </script>
+        
+    @endif
   </div>
   <!-- /.container -->
 @endsection

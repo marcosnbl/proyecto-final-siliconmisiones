@@ -19,4 +19,5 @@ Route::get('/',HomeController::class)->name('home');
 Route::get('about', [AboutController::class,'index'])->name('about.index'); 
 Route::get('cursos', [CursosController::class,'index'])->name('cursos.index'); 
 Route::get('contacto', [ContactoController::class,'index'])->name('contacto.index'); 
+Route::post('contacto', [ContactoController::class,'store'])->name('contacto.store');
 

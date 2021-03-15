@@ -138,7 +138,8 @@
 
 
 
-        <form action="" class="formulario sombra">
+        <form class="formulario sombra" action="{{route('contacto.store')}}" method="POST">
+            @csrf
             <fieldset>
                 <legend>Contáctanos
                 </legend>
@@ -146,21 +147,21 @@
                 <div class="contenedor-campos">
                     <div class="campo">
                         <label for="">Nombre</label>
-                        <input class="input-text" type="text" placeholder="Nombre">
+                        <input class="input-text" type="text" name='name' placeholder="Nombre">
                     </div>
                     <div class="campo">
                         <label for="">Teléfono</label>
-                        <input class="input-text" type="tel" placeholder="Teléfono">
+                        <input class="input-text" type="tel" name='number' placeholder="Teléfono">
                     </div>
 
                     <div class="campo">
                         <label for="">E-mail</label>
-                        <input class="input-text" type="email" placeholder="Tu correo electrónico">
+                        <input class="input-text" type="email" name='email' placeholder="Tu correo electrónico">
                     </div>
 
                     <div class="campo">
                         <label for="">Mensaje</label>
-                        <textarea class="input-text"></textarea>
+                        <textarea class="input-text" name='message'></textarea>
 
                     </div>
 
@@ -169,7 +170,7 @@
 
                     <div>
 
-                        <input class="boton enviar type=" submit " name=" " id=" " value="Enviar ">
+                        <input class="boton enviar" type= "submit" name=" " id=" " value="Enviar ">
                     </div>
 
             </fieldset>
