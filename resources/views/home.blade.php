@@ -43,7 +43,7 @@
         <h2>Nuestro Equipo</h2>
         <div class="nuestro-equipo">
             <div class="card animate__animated animate__flipInY animate__delay-3s">
-                <img class="developer" src="imgs/hola (2).jpg" class="card-img-top" alt="...">
+                <img class="developer" src="imgs/marcos.jfif" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Marcos Lisoski</h5>
                     <p class="card-text">QA Analyst</p>
@@ -51,7 +51,7 @@
             </div>
 
             <div class="card animate__animated animate__flipInY animate__delay-3s">
-                <img class="developer" src="imgs/hola (2).jpg" class="card-img-top" alt="...">
+                <img class="developer" src="imgs/cin.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Cintia Tai</h5>
                     <p class="card-text">Frontend Developer</p>
@@ -59,7 +59,7 @@
             </div>
 
             <div class="card animate__animated animate__flipInY animate__delay-3s">
-                <img class="developer" src="imgs/hola (2).jpg" class="card-img-top" alt="...">
+                <img class="developer" src="imgs/ale.jfif" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Alejandra Otazu</h5>
                     <p class="card-text">Fullstack Developer</p>
@@ -67,7 +67,7 @@
             </div>
 
             <div class="card animate__animated animate__flipInY animate__delay-3s">
-                <img class="developer" src="imgs/hola (2).jpg" class="card-img-top" alt="...">
+                <img class="developer" src="imgs/matias.jfif" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Matías Aquino</h5>
                     <p class="card-text">Backend Developer</p>
@@ -146,7 +146,7 @@
 
                 <div class="contenedor-campos" >
                     <div class="campo">
-                        <label for="name">Nombre</label>
+                        <label class="label" for="name">Nombre</label>
                         <input class="input-text" type="text" name='name' placeholder="Nombre">
                         @error('name')
                            <h6><strong>{{$message}}</strong></h6>
@@ -154,7 +154,7 @@
                     </div>
 
                     <div class="campo">
-                        <label for="phone">Teléfono</label>
+                        <label class="label" for="phone">Teléfono</label>
                         <input class="input-text" type="tel" name='phone' placeholder="Teléfono">
                         @error('phone')
                            <h6><strong>{{$message}}</strong></h6>
@@ -162,7 +162,7 @@
                     </div>
 
                     <div class="campo">
-                        <label for="email">E-mail</label>
+                        <label class="label" for="email">E-mail</label>
                         <input class="input-text" type="email" name='email' placeholder="Tu correo electrónico">
                         @error('email')
                            <h6><strong>{{$message}}</strong></h6>
@@ -170,7 +170,7 @@
                     </div>
 
                     <div class="campo">
-                        <label for="message">Mensaje</label>
+                        <label class="label" for="message">Mensaje</label>
                         <textarea class="input-text" name='message'></textarea>
                         @error('message')
                            <h6><strong>{{$message}}</strong></h6>

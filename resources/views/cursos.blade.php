@@ -9,7 +9,7 @@
 
     <!-- Page Heading/Breadcrumbs -->
     <h1 class="mt-4 mb-3">Nuestros Cursos
-      <small>Subtitulo</small>
+      
     </h1>
 
     <ol class="breadcrumb">
