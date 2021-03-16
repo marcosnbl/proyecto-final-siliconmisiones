@@ -146,11 +146,7 @@
 
                 <div class="contenedor-campos" >
                     <div class="campo">
-<<<<<<< HEAD
-                        <label class="label" for="name">Nombre</label>
-=======
                         <label class="label" for="name">Nombre </label>
->>>>>>> c1ab84aa2d5124cd589ec33c3ae5885a87adff3b
                         <input class="input-text" type="text" name='name' placeholder="Nombre">
                         @error('name')
                            <h6><strong>{{$message}}</strong></h6>
