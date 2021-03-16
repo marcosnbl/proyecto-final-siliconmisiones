@@ -18,7 +18,7 @@ class CursosController extends Controller
         return view('detalles', ['curso' => $curso]);
     }
     public function create() {
-        return view('crear');
+        return view('gestion-de-cursos');
     }
     public function store(Request $request) {
         $curso= new Curso ();
@@ -32,6 +32,9 @@ class CursosController extends Controller
         $curso->descripcion_larga = $request->descripcion_larga;
         $curso->save();
         return redirect()->route('cursos.showDetails',$curso);
+    }
+    public function edit() {
+        return view('editar-cursos');
     }
 }
 

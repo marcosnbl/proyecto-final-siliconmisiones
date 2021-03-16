@@ -30,7 +30,7 @@
                     <br>
                     <input type="submit" name="update_at" class="btn btn-success btn-block" value="Actualizar datos.">
                     <br>
-                    <a href="home.blade.php?" class="">
+                    <a href="{!! route('home') !!}" class="">
                         <input type="cancel" name="cancel" class="btn btn-danger btn-block" value="Cancelar.">
                     </a> 
                 </form>
