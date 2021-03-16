@@ -5,6 +5,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\CursosController;
 use App\Http\Controllers\ContactoController;
+use App\Http\Controllers\CrateController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,6 +19,8 @@ use App\Http\Controllers\ContactoController;
 Route::get('/',HomeController::class)->name('home');
 Route::get('about', [AboutController::class,'index'])->name('about.index'); 
 Route::get('cursos', [CursosController::class,'index'])->name('cursos.index'); 
+Route::get('cursos/crear', [CursosController::class,"create"])->name('cursos.create');
+Route::post('cursos', [CursosController::class,"store"])->name('cursos.store');
 Route::get('contacto', [ContactoController::class,'index'])->name('contacto.index'); 
 Route::post('contacto', [ContactoController::class,'store'])->name('contacto.store');
 Route::get('cursos/{id}', [CursosController::class,'showDetails'])->name('cursos.showDetails'); 
