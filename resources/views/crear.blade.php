@@ -27,9 +27,9 @@
                     </div>
                     
                     <input type="submit" name="created_at" class="btn btn-success btn-block" value="Guardar datos.">
-                    </br>
+                    <br>
                     <input type="submit" name="update_at" class="btn btn-success btn-block" value="Actualizar datos.">
-                    </br>
+                    <br>
                     <a href="home.blade.php?" class="">
                         <input type="cancel" name="cancel" class="btn btn-danger btn-block" value="Cancelar.">
                     </a> 
