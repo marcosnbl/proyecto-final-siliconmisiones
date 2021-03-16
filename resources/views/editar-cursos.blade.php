@@ -1,6 +1,6 @@
 @extends ('layouts.main')
 
-@section('title','Contacto')
+@section('title','cursos')
 
 @section('content')
 
@@ -17,6 +17,12 @@
           </tr>
         </thead>
         <tbody>
+        
+        <ul>
+            @foreach ($curso as $cursos)
+                <li>{{$curso->nombre}}</li>
+            @endforeach
+        </ul>
 
         
         </tbody>
