@@ -26,8 +26,9 @@
       </div>
       <div class="col-lg-6">
         <h2 class="sobre-nosotros-pregunta">¿Por qué elegimos este proyecto?</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, magni, aperiam vitae illum voluptatum aut sequi impedit non velit ab ea pariatur sint quidem corporis eveniet. Odit, temporibus reprehenderit dolorum!</p>
+        <p>Esta iniciativa nacio con la idea por promover el conocimiento informático, y podamos llegar a todas las personas que están iniciándose en el mundo de la programación pero no tienen los recursos para poder contratar un curso.
+        <p>La falta de conocimiento del idioma inglés tambien puede dificultar el aprendizaje ya que la mayoria de los materiales disponibles están en este idioma, por lo cual nuestros cursos estan totalmente en español </p>
+        <p>Nuestro objetivo es darte todas las herramientas necesarias para que puedas conseguir empleo en eso que tanto te gusta, y puedas dar tus primeros pasos en el mundo de la informatica</p>
           
       </div>
     </div>
@@ -37,7 +38,7 @@
     <!-- /Header Divisor -->
     <header class="equipo-header bg-var(--primary) text-center pb-1 pt-2 my-4">
       <div class="container">
-        <h1 class="font-weight-light text-white">Nuestro Equipo</h1>
+        <h1 class="font-weight-light text-black">Nuestro Equipo</h1>
       </div>
     </header>
 
