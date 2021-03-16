@@ -33,7 +33,7 @@
             <p class="card-text">{{ $curso['descripcion_corta'] }}</p>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary">Ver mas</a>
+            <a href="{!! route('cursos.showDetails', ['id' => $curso['id']]) !!}" class="btn btn-primary">Ver mas</a>
           </div>
         </div>
       </div>
