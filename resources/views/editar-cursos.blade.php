@@ -8,6 +8,7 @@
     <table class="table table-bordered">
         <thead>
           <tr>
+            <th>id</th>
             <th>Cursos</th>
             <th>Imagenes</th>
             <th>Descripcion Corta</th>
@@ -19,8 +20,8 @@
         <tbody>
         
         <ul>
-            @foreach ($curso as $cursos)
-                <li>{{$curso->nombre}}</li>
+            @foreach ($curso as $curso)
+                <li>{{$curso['nombre']}}</li>
             @endforeach
         </ul>
 
