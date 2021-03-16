@@ -1,4 +1,6 @@
-<div class="nav-bg">
+
+
+<div class="nav-bg sticky-top navbar-light bg-white">
     <nav class="navegacion-principal contenedor">
         <a href="{!! route('home') !!}"><img class="logo" src="{{ URL::to('imgs/logo_corto.png') }}" alt="logo"></a>
         <a href="{!! route('about.index') !!}" class="link">Sobre Nosotros</a>

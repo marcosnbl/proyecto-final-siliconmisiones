@@ -7,7 +7,7 @@
   <div class="container">
 
     <!-- Page Heading/Breadcrumbs -->
-    <h1 class="mt-4 mb-3"> Contáctanos
+    <h1 class="contactanos mt-5 mb-5"> Contáctanos
      
     </h1>
 
@@ -27,7 +27,7 @@
       </div>
       <!-- Columna de Detalles de Contacto -->
       <div class="col-lg-4 mb-4">
-        <h3>Contacto</h3>
+        <h3 class="contacto">Contacto</h3>
         <p>
           Silicon Misiones
           <br>Posadas Misiones
@@ -51,14 +51,14 @@
     <!-- Contact Form - Ver Carpeta Mail -->
     
     <div class="row">
-      <div class="col-lg-8 mb-4">
-        <h3>Envianos un Mensaje</h3>
-        <form name="sentMessage" id="contactForm" novalidate action="{{route('contacto.store')}}" method="POST">
+      <div class="col-lg-12 mb-4">
+        <h3 class="mensaje">Envianos un Mensaje</h3>
+        <form class="formulario sombra" name="sentMessage" id="contactForm" novalidate action="{{route('contacto.store')}}" method="POST">
           @csrf
           <div class="control-group form-group">
             <div class="controls">
-              <label>Nombre Completo:</label>
-              <input type="text" class="form-control" name="name" required data-validation-required-message="Please enter your name.">
+              <label>Nombre</label>
+              <input type="text" placeholder="Tu nombre completo" class="form-control" name="name" required data-validation-required-message="Please enter your name.">
               <p class="help-block"></p>
               @error('name')
                   <p><strong>{{$message}}</strong></p>
@@ -67,8 +67,8 @@
           </div>
           <div class="control-group form-group">
             <div class="controls">
-              <label>Numero de Telefono:</label>
-              <input type="tel" class="form-control" name="phone" required data-validation-required-message="Please enter your phone number.">
+              <label>Teléfono</label>
+              <input type="tel" placeholder ="Tu número de teléfono" class="form-control" name="phone" required data-validation-required-message="Please enter your phone number.">
               @error('phone')
                   <p><strong>{{$message}}</strong></p>
               @enderror
@@ -76,8 +76,8 @@
           </div>
           <div class="control-group form-group">
             <div class="controls">
-              <label>Email:</label>
-              <input type="email" class="form-control" name="email" required data-validation-required-message="Please enter your email address.">
+              <label>E-mail</label>
+              <input type="email" placeholder="Tu correo electrónico" class="form-control" name="email" required data-validation-required-message="Please enter your email address.">
               @error('email')
                   <p><strong>{{$message}}</strong></p>
               @enderror
@@ -85,8 +85,8 @@
           </div>
           <div class="control-group form-group">
             <div class="controls">
-              <label>Mensaje:</label>
-              <textarea rows="10" cols="100" class="form-control" name="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+              <label>Mensaje</label>
+              <textarea placeholder="Escribe tu mensaje ..."rows="10" cols="100" class="form-control" name="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
               @error('message')
                   <p><strong>{{$message}}</strong></p>
               @enderror
@@ -94,7 +94,7 @@
           </div>
           <div id="success"></div>
           <!-- Para mensajes Enviados o Fallidos-->
-          <button type="submit" class="btn btn-primary" id="sendMessageButton">Enviar</button>
+          <button type="submit" class="boton btn btn-primary" id="sendMessageButton">Enviar</button>
         </form>
       </div>
 
