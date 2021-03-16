@@ -1,0 +1,36 @@
+#detalle {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    font-family: "Roboto", sans-serif;
+}
+
+#detalle .heading {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2em;
+}
+
+#detalle .heading .title {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#detalle .heading .title h3 {
+    text-align: left;
+}
+
+#detalle .description {
+    margin-bottom: 2em;
+}
+
+#detalle .description h2 {
+    text-align: left;
+    margin-bottom: 1em;
+    color: black;
+}
+#detalle .description p {
+    text-align: justify;
+}
