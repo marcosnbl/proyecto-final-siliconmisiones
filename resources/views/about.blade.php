@@ -26,9 +26,9 @@
       </div>
       <div class="col-lg-6">
         <h2 class="sobre-nosotros-pregunta">¿Por qué elegimos este proyecto?</h2>
-        <p>Esta iniciativa nacio con la idea por promover el conocimiento informático, y podamos llegar a todas las personas que están iniciándose en el mundo de la programación pero no tienen los recursos para poder contratar un curso.
-        <p>La falta de conocimiento del idioma inglés tambien puede dificultar el aprendizaje ya que la mayoria de los materiales disponibles están en este idioma, por lo cual nuestros cursos estan totalmente en español </p>
-        <p>Nuestro objetivo es darte todas las herramientas necesarias para que puedas conseguir empleo en eso que tanto te gusta, y puedas dar tus primeros pasos en el mundo de la informatica</p>
+        <p>Esta iniciativa nació con la idea por promover el conocimiento informático, y podamos llegar a todas las personas que están iniciándose en el mundo de la programación pero no tienen los recursos para poder contratar un curso.
+        <p>La falta de conocimiento del idioma inglés tambien puede dificultar el aprendizaje ya que la mayoria de los materiales disponibles están en éste idioma, por lo cual nuestros cursos estan totalmente en español </p>
+        <p>Nuestro objetivo es darte todas las herramientas necesarias para que puedas conseguir empleo en eso que tanto te gusta, y puedas dar tus primeros pasos en el mundo de la informática</p>
           
       </div>
     </div>
