@@ -9,7 +9,7 @@
     <title>Proyecto Final - Desarrollo Web Full Stack - Silicon Misiones</title>
   
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ URL::to('vendor/bootstrap/css/bootstrap.min.css') }}"" rel="stylesheet">
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->
@@ -17,8 +17,9 @@
     <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
     <!-- Diseño -->
-    <link rel="stylesheet" href="css/normalize.css">
-    <link href="css/styles.css" rel="stylesheet">
+    <link href="{{ URL::to('css/normalize.css') }}" rel="stylesheet">
+    <link href="{{ URL::to('css/styles.css') }}" rel="stylesheet">
+    <link href="{{ URL::to('css/detalles.css') }}" rel="stylesheet">
   
     
     <title>@yield('title')</title>

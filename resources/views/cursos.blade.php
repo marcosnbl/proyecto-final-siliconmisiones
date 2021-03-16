@@ -14,7 +14,7 @@
 
     <ol class="breadcrumb">
       <li class="breadcrumb-item">
-        <a href="/">Home</a>
+        <a href="{!! route('home') !!}">Home</a>
       </li>
       <li class="breadcrumb-item active">Cursos</li>
     </ol>
@@ -24,39 +24,21 @@
 
     <!-- Tarjetas Para los cursos -->
     <div class="row">
+
+     @foreach($cursos as $curso)
       <div class="col-lg-4 mb-4">
         <div class="card h-100">
-          <h4 class="card-header">Curso</h4>
+          <h4 class="card-header">{{ $curso['nombre'] }}</h4>
           <div class="card-body">
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+            <p class="card-text">{{ $curso['descripcion_corta'] }}</p>
           </div>
           <div class="card-footer">
             <a href="#" class="btn btn-primary">Ver mas</a>
           </div>
         </div>
       </div>
-      <div class="col-lg-4 mb-4">
-        <div class="card h-100">
-          <h4 class="card-header">Curso</h4>
-          <div class="card-body">
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ipsam eos, nam perspiciatis natus commodi similique totam consectetur praesentium molestiae atque exercitationem ut consequuntur, sed eveniet, magni nostrum sint fuga.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Ver mas</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 mb-4">
-        <div class="card h-100">
-          <h4 class="card-header">Curso</h4>
-          <div class="card-body">
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Ver mas</a>
-          </div>
-        </div>
-      </div>
+     @endforeach
+
     </div>
     <!-- /.row -->
 
