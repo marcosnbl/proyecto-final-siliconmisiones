@@ -10,20 +10,30 @@
           <tr>
             <th>id</th>
             <th>Cursos</th>
-            <th>Imagenes</th>
-            <th>Descripcion Corta</th>
-            <th>Descripcion Larga</th>
             <th>Fecha</th>
-            <th>Editar- Eliminar</th>
+            <th>Acciones</th>
           </tr>
         </thead>
         <tbody>
         
-        <ul>
-            @foreach ($curso as $curso)
-                <li>{{$curso['nombre']}}</li>
+        
+            @foreach ($cursos as $curso)
+            <tr>
+
+
+
+                <td>{{$curso['id']}}</td>
+                <td>{{$curso['nombre']}}</td>
+                <td>{{$curso['created_at']}}</td>
+                
+
+
+
+
+
+            </tr>
             @endforeach
-        </ul>
+        
 
         
         </tbody>

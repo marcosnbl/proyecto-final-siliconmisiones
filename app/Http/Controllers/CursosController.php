@@ -33,9 +33,9 @@ class CursosController extends Controller
         $curso->save();
         return redirect()->route('cursos.showDetails',$curso);
     }
-    public function edit() {
-        $curso= Curso::all()->toArray();
-        return view('editar-cursos', ['curso'=>$curso]);
+    public function lista() {
+        $cursos= Curso::all()->toArray();
+        return view('listar-cursos', ['cursos'=>$cursos]);
     }
 }
 
