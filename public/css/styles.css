@@ -429,14 +429,14 @@ li {
 .boton {
     background-color: var(--primario);
     color: var(--blanco);
-    padding: 1rem 3rem;
+    padding: 1rem 1rem;
     margin-top: 1rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-decoration: none;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: bold;
     border-radius: 0.5rem;
-    max-width: 30%;
+    max-width: 15%;
     text-align: center;
     border: none;
 }
