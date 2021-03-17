@@ -19,7 +19,7 @@ use App\Http\Controllers\CrateController;
 Route::get('/',HomeController::class)->name('home');
 Route::get('about', [AboutController::class,'index'])->name('about.index'); 
 Route::get('cursos', [CursosController::class,'index'])->name('cursos.index'); 
-Route::get('gestiondecursos', [CursosController::class,"create"])->name('cursos.create');
+Route::get('creaciondecursos', [CursosController::class,"create"])->name('cursos.create');
 Route::get('gestion', [CursosController::class,"lista"])->name('cursos.lista');
 Route::post('cursos', [CursosController::class,"store"])->name('cursos.store');
 Route::get('contacto', [ContactoController::class,'index'])->name('contacto.index'); 
