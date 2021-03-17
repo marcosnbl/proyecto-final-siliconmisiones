@@ -48,7 +48,7 @@
           <img class="card-img-top" src="imgs/marcos.jfif" alt="">
           <div class="card-body">
             <h4 class="card-title mb-3">Marcos Benitez Lisoski</h4>
-            <h6 class="card-subtitle mb-3 text-muted">QA Analyst</h6>
+            <h5 class="card-subtitle mb-3 text-muted">QA Analyst</h5>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
           </div>
           <div class="card-footer">
@@ -61,8 +61,10 @@
           <img class="card-img-top" src="imgs/ale.jfif" alt="">
           <div class="card-body">
             <h4 class="card-title mb-3">Alejandra Otazu</h4>
-            <h6 class="card-subtitle mb-3 text-muted">Fullstack Developer</h6>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
+            <h5 class="card-subtitle mb-3 text-muted">Fullstack Developer</h5>
+            <p class="card-text">Estudiante de Analista en Sistemas de Computación,siempre en constante aprendizaje.
+            Mi propósito es trasladar mi pasion por las tecnologías web a todos aquellos que quieran iniciarse en este campo.</p>
+            
           </div>
           <div class="card-footer">
             <a href="#">mharale21@gmail.com</a>
@@ -74,7 +76,7 @@
           <img class="card-img-top" src="imgs/cin.jpg" alt="">
           <div class="card-body">
             <h4 class="card-title mb-3">Cintia Tai</h4>
-            <h6 class="card-subtitle mb-3 text-muted">Frontend Developer</h6>
+            <h5 class="card-subtitle mb-3 text-muted">Frontend Developer</h5>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
           </div>
           <div class="card-footer">
@@ -87,7 +89,7 @@
           <img class="card-img-top" src="imgs/matias.jfif" alt="">
           <div class="card-body">
             <h4 class="card-title mb-3">Matias Aquino</h4>
-            <h6 class="card-subtitle mb-3 text-muted">Backend Developer</h6>
+            <h5 class="card-subtitle mb-3 text-muted">Backend Developer</h5>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
           </div>
           <div class="card-footer">

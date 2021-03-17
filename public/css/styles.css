@@ -148,15 +148,26 @@ h3 {
 main h2 {
     margin-bottom: 5rem;
 }
+h2.cursos {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
 .nuestro-equipo {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+
 .card .card-title,
 .card .card-text {
     text-align: center;
-    font-size: large;
+    font-size: 0.9m;
+}
+.card h4.card-title {
+    font-weight: bold;
+}
+.card h5.card-subtitle {
+    font-weight: bold;
 }
 .card .card-title {
     margin-bottom: 0;

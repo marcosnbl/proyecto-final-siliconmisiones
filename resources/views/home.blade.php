@@ -143,6 +143,7 @@
             <fieldset>
                 <legend>Contáctanos
                 </legend>
+                <p class="card-text">Complete el formulario y nos pondremos en contácto lo más pronto posible</p>
 
                 <div class="contenedor-campos" >
                     <div class="campo">
