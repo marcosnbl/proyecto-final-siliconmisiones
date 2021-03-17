@@ -28,12 +28,12 @@
      @foreach($cursos as $curso)
       <div class="col-lg-4 mb-4">
         <div class="card h-100">
-          <h4 class="card-header">{{ $curso['nombre'] }}</h4>
+          <h3 class="card-header">{{ $curso['nombre'] }}</h3>
           <div class="card-body">
             <p class="card-text">{{ $curso['descripcion_corta'] }}</p>
           </div>
           <div class="card-footer">
-            <a href="{!! route('cursos.showDetails', ['id' => $curso['id']]) !!}" class="btn btn-primary">Ver mas</a>
+            <a href="{!! route('cursos.showDetails', ['id' => $curso['id']]) !!}" class="btn btn-primary">Ver más</a>
           </div>
         </div>
       </div>

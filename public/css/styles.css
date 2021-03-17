@@ -7,7 +7,10 @@
     --gris: #f3f3f4;
     --fuente-principal: 3.8rem;
 }
-
+.btn-primary {
+    font-weight: bold;
+    font-size: 0.7em;
+}
 html {
     font-size: 62.5%;
     box-sizing: border-box;
@@ -157,7 +160,10 @@ h2.cursos {
     flex-direction: row;
     justify-content: space-between;
 }
-
+.card h3.card-header {
+    background-color: #adb5bd;
+    font-weight: bold;
+}
 .card .card-title,
 .card .card-text {
     text-align: center;
