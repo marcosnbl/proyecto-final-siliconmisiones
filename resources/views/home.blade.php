@@ -67,9 +67,9 @@
             </div>
 
             <div class="card ">
-                <img class="developer" src="imgs/matias.jfif" class="card-img-top" alt="...">
+                <img class="developer" src="imgs/matias.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Matías Aquino</h5>
+                    <h5 class="card-title">Matías Aquino Gerega</h5>
                     <p class="card-text">Backend Developer</p>
                 </div>
             </div>

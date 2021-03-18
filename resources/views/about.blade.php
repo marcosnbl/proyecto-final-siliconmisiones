@@ -95,16 +95,16 @@
       </div>
       <div class="col-lg-3 mb-4">
         <div class="card h-100 text-center">
-          <img class="card-img-top" src="imgs/matias.jfif" alt="">
+          <img class="card-img-top" src="imgs/matias.jpg" alt="">
           <div class="card-body">
-            <h4 class="card-title mb-3">Matias Aquino</h4>
+            <h4 class="card-title mb-3">Matias Aquino Gerega</h4>
             <h5 class="card-subtitle mb-3 text-muted">Backend Developer</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
+            <p class="card-text">Estudiante de licenciatura en sistemas, amante de la tecnología y la programación</p>
           </div>
           <div class="card-footer">
-            <a href="#">matias.aquino@gmail.com</a>
+            <a href="#">matias.aquino.gerega@gmail.com</a>
             <br>
-            <a href="https://www.linkedin.com/in/marcosnbl/"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.linkedin.com/in/matias-aquino-gerega-766b16174/"><i class="fab fa-linkedin-in"></i></a>
             <a href="https://github.com/MatiasAGer"><i class="fab fa-github"></i></a>
           </div>
         </div>
