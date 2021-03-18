@@ -29,20 +29,28 @@
       <div class="col-lg-4 mb-4">
         <h3 class="contacto">Contacto</h3>
         <p>
-          Silicon Misiones
-          <br>Posadas Misiones
+          <i class="far fa-map"></i>
+          <a href="https://goo.gl/maps/GJg8Xz5PajnWQjoPA">San Lorenzo 2023 - Posadas, Misiones</a>
           <br>
         </p>
         <p>
-          <abbr title="Telefono">P</abbr>: 3764-571058
+            <i class="fas fa-phone-volume"></i>
+          <abbr title="Telefono"></abbr>
+          <a href="https://api.whatsapp.com/send?phone=5493764520405">+54 3764 520405</a>
+
         </p>
         <p>
-          <abbr title="Email">E</abbr>:
-          <a href="mailto:mblisoski@gmail.com">mblisoski@gmail.com
-          </a>
+          <i class="fas fa-envelope"></i>
+          <abbr title="Email"></abbr>
+          <a href="mailto:">info@siliconmisiones.com.ar</a>
         </p>
         <p>
-          <abbr title="Hours">H</abbr>: 24/7
+          <i class="fab fa-linkedin-in"></i>
+          <a href="https://www.linkedin.com/in/siliconmisiones/">/in/siliconmisiones</a>
+        </p>
+        <p>
+          <i class="fab fa-github"></i>
+          <a href="https://github.com/marcosnbl/proyecto-final-siliconmisiones">Repositorio del Proyecto</a>
         </p>
       </div>
     </div>
