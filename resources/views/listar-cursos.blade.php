@@ -33,16 +33,16 @@
                 <td>{{$curso['created_at']}}</td>
                 <td>
                   
-                  <form>
+                  <form action="{!! route('cursos.editar', ['id' => $curso['id']]) !!}">
+                    @csrf
                     <button type="submit">
-                    <a href="{!! route('cursos.editar',$curso) !!}" class="">
-                    Actualizar
-                    </a>
+                    Editar
                     </button>
                   </form>
+                  
                   <br>
                   
-                  <form action = "{{route('cursos.destroy',$curso)}}" method="POST" >
+                  <form action = "{!! route('cursos.destroy', ['id' => $curso['id']]) !!}" >
                     @csrf
                     @method('delete')
                     <button type="submit" >Eliminar<button> 

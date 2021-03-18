@@ -37,11 +37,12 @@ class CursosController extends Controller
         $cursos= Curso::all()->toArray();
         return view('listar-cursos', ['cursos'=>$cursos]);
     }
+    
     public function editar($id){
         $curso = Curso::find($id);
         return view("editar-cursos", compact('curso'));
-
     }
+
     public function actualizar(Request $request, Curso $curso){
         $curso->nombre = $request->nombre;
         $curso->imagen = $request->imagen;
@@ -50,8 +51,8 @@ class CursosController extends Controller
 
         $curso->save();
         return redirect()->route('cursos.lista',$curso);
-
     }
+    
     public function destroy($id){
         $curso=Curso::find($id);
         $curso->delete();
