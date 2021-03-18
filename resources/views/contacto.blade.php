@@ -50,55 +50,7 @@
 
     <!-- Contact Form - Ver Carpeta Mail -->
     
-    <div class="row">
-      <div class="col-lg-12 mb-4">
-        <h3 class="mensaje">Envianos un Mensaje</h3>
-        <form class="formulario sombra" name="sentMessage" id="contactForm" novalidate action="{{route('contacto.store')}}" method="POST">
-          @csrf
-          <div class="control-group form-group">
-            <div class="controls">
-              <label>Nombre</label>
-              <input type="text" placeholder="Tu nombre completo" class="form-control" name="name" required data-validation-required-message="Please enter your name.">
-              <p class="help-block"></p>
-              @error('name')
-                  <p><strong>{{$message}}</strong></p>
-              @enderror
-            </div>
-          </div>
-          <div class="control-group form-group">
-            <div class="controls">
-              <label>Teléfono</label>
-              <input type="tel" placeholder ="Tu número de teléfono" class="form-control" name="phone" required data-validation-required-message="Please enter your phone number.">
-              @error('phone')
-                  <p><strong>{{$message}}</strong></p>
-              @enderror
-            </div>
-          </div>
-          <div class="control-group form-group">
-            <div class="controls">
-              <label>E-mail</label>
-              <input type="email" placeholder="Tu correo electrónico" class="form-control" name="email" required data-validation-required-message="Please enter your email address.">
-              @error('email')
-                  <p><strong>{{$message}}</strong></p>
-              @enderror
-            </div>
-          </div>
-          <div class="control-group form-group">
-            <div class="controls">
-              <label>Mensaje</label>
-              <textarea placeholder="Escribe tu mensaje ..."rows="10" cols="100" class="form-control" name="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
-              @error('message')
-                  <p><strong>{{$message}}</strong></p>
-              @enderror
-            </div>
-          </div>
-          <div id="success"></div>
-          <!-- Para mensajes Enviados o Fallidos-->
-          <button type="submit" class="boton btn btn-primary" id="sendMessageButton">Enviar</button>
-        </form>
-      </div>
-
-    </div>
+      @include("formcontacto")
     <!-- /.row -->
   </div>
   <!-- /.container -->
