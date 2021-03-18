@@ -52,5 +52,7 @@ class CursosController extends Controller
         return redirect()->route('cursos.lista',$curso);
 
     }
+
+
 }
 

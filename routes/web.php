@@ -26,4 +26,5 @@ Route::get('contacto', [ContactoController::class,'index'])->name('contacto.inde
 Route::post('contacto', [ContactoController::class,'store'])->name('contacto.store');
 Route::get('cursos/{id}', [CursosController::class,'showDetails'])->name('cursos.showDetails');
 Route::get('editarcursos/{id}', [CursosController::class,'editar'])->name('cursos.editar'); 
-Route::put('cursos/{curso}', [CursosController::class,'actualizar'])->name('cursos.actualizar'); 
+Route::put('cursos/{curso}', [CursosController::class,'actualizar'])->name('cursos.actualizar');
+//**Route::delete('cursos/{curso}', [CursosController::class,'eliminar'])->name('cursos.eliminar');**\\
