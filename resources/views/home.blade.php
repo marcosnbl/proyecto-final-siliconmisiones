@@ -11,7 +11,7 @@
 
     <!-- .contenido-hero-->
 
-    <section class="contenedor servicios sombra animate__animated animate__backInLeft animate__delay-2s">
+    <section class="contenedor servicios sombra ">
         <div class="servicio">
             <h2>Cursos y proyectos</h2>
             <div>
@@ -42,7 +42,7 @@
     <main class="contenedor ">
         <h2>Nuestro Equipo</h2>
         <div class="nuestro-equipo">
-            <div class="card animate__animated animate__flipInY animate__delay-3s">
+            <div class="card ">
                 <img class="developer" src="imgs/marcos.jfif" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Marcos Lisoski</h5>
@@ -50,7 +50,7 @@
                 </div>
             </div>
 
-            <div class="card animate__animated animate__flipInY animate__delay-3s">
+            <div class="card ">
                 <img class="developer" src="imgs/cin.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Cintia Tai</h5>
@@ -58,7 +58,7 @@
                 </div>
             </div>
 
-            <div class="card animate__animated animate__flipInY animate__delay-3s">
+            <div class="card ">
                 <img class="developer" src="imgs/ale.jfif" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Alejandra Otazu</h5>
@@ -66,7 +66,7 @@
                 </div>
             </div>
 
-            <div class="card animate__animated animate__flipInY animate__delay-3s">
+            <div class="card ">
                 <img class="developer" src="imgs/matias.jfif" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Matías Aquino</h5>

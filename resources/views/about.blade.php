@@ -83,7 +83,7 @@
           <div class="card-body">
             <h4 class="card-title mb-3">Cintia Tai</h4>
             <h5 class="card-subtitle mb-3 text-muted">Frontend Developer</h5>
-            <p class="card-text">LIcenciada en Tecnologías de la Información, Frontend Developer en CAMMM. Desarrollo de apps nativas con Android JAVA/Kotlin, multiplataforma con Flutter y Dart. Me encanta programar y enseñar a los demás.</p>
+            <p class="card-text">Estudiante de Desarrollo Web, Profesora en Inglés, con mucho interés en desarrollar habilidades en diseño UX/UI. Me encanta programar, enseñar a los demás y sobre todo, seguir aprendiendo.</p>
           </div>
           <div class="card-footer">
             <a href="#">cintiasofiatai@gmail.com</a>
