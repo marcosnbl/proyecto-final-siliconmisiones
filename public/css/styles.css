@@ -30,9 +30,12 @@ body {
     font-size: 16px;
     /* 1rem = 10px */
     font-family: "Roboto", sans-serif;
-    background-image: linear-gradient( to top, var(--gris) 0%, var(--blanco) 100%);
+    background-image: linear-gradient(
+        to top,
+        var(--gris) 0%,
+        var(--blanco) 100%
+    );
 }
-
 
 /*Tipografia*/
 
@@ -127,7 +130,6 @@ a {
     }
 }
 
-
 /*Servicios*/
 
 @media (min-width: 768px) {
@@ -217,7 +219,6 @@ h2.cursos {
 .card .card-title {
     margin-bottom: 0;
 }
-
 
 /**Empieza Carrusel**/
 
@@ -452,14 +453,12 @@ li {
     background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='100,50 20,100 20,0' fill='%23fff'/%3E%3C/svg%3E");
 }
 
-
 /**termina Carrusel**/
-
 
 /*Contacto*/
 
 .formulario {
-    background-color: #D8DFF8;
+    background-color: #d8dff8;
     width: min(80rem, 100%);
     /*Utiliza el valor mas pequeño o el 100%. Para ahorrar media queries*/
     margin: 0 auto;
@@ -543,16 +542,17 @@ li {
     }
 }
 
-
 /**Sobre Nosotros**/
 
 .sobre-nosotros-pregunta {
     margin: 20px;
 }
 
-
 /*Footer*/
 
 .footer {
     text-align: center;
+}
+footer.py-5.bg-navy {
+    background-color: #4b4a4a;
 }
