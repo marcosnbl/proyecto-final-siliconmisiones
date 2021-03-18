@@ -18,7 +18,7 @@ class CursosController extends Controller
         return view('detalles', ['curso' => $curso]);
     }
     public function create() {
-        return view('gestion-de-cursos');
+        return view('creacion-de-cursos');
     }
     public function store(Request $request) {
         $curso= new Curso ();
@@ -33,9 +33,9 @@ class CursosController extends Controller
         $curso->save();
         return redirect()->route('cursos.showDetails',$curso);
     }
-    public function edit() {
-        $curso= Curso::all()->toArray();
-        return view('editar-cursos', ['curso'=>$curso]);
+    public function lista() {
+        $cursos= Curso::all()->toArray();
+        return view('listar-cursos', ['cursos'=>$cursos]);
     }
 }
 
