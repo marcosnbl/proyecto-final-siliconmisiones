@@ -167,10 +167,14 @@ h2.cursos {
 .card .card-title,
 .card .card-text {
     text-align: center;
-    font-size: 0.9m;
+    font-size: 0.9em;
 }
 .card h4.card-title {
     font-weight: bold;
+}
+.card h5.card-title {
+    font-weight: bold;
+    font-size: 1m;
 }
 .card h5.card-subtitle {
     font-weight: bold;
