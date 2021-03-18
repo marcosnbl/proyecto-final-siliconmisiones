@@ -46,7 +46,7 @@
                 <img class="developer" src="imgs/marcos.jfif" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Marcos Lisoski</h5>
-                    <p class="card-text">QA Analyst</p>
+                    <p class="card-text">QA Analyst & Frontend Developer</p>
                 </div>
             </div>
 
