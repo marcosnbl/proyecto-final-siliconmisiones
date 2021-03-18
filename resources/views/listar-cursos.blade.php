@@ -42,19 +42,13 @@
                   
                   <br>
                   
-                  <form action = "{!! route('cursos.destroy', ['id' => $curso['id']]) !!}" >
+                  <form action="{!! route('cursos.destroy', ['id' => $curso['id']]) !!}" method="POST">
                     @csrf
                     @method('delete')
-                    <button type="submit" >Eliminar<button> 
+                    <button type="submit" >Eliminar </button>
                   </form>
 
                 </td>
-                
-
-
-
-
-
             </tr>
             @endforeach
         
