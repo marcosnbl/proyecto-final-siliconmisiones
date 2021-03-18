@@ -48,11 +48,14 @@
           <img class="card-img-top" src="imgs/marcos.jfif" alt="">
           <div class="card-body">
             <h4 class="card-title mb-3">Marcos Benitez Lisoski</h4>
-            <h5 class="card-subtitle mb-3 text-muted">QA Analyst</h5>
+            <h5 class="card-subtitle mb-3 text-muted">QA Analyst & Frontend Developer</h5>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
           </div>
           <div class="card-footer">
             <a href="#">mblisoski@gmail.com</a>
+            <br>
+            <a href="https://www.linkedin.com/in/marcosnbl/"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/marcosnbl"><i class="fab fa-github"></i></a>
           </div>
         </div>
       </div>
@@ -68,6 +71,9 @@
           </div>
           <div class="card-footer">
             <a href="#">mharale21@gmail.com</a>
+            <br>
+            <a href="https://www.linkedin.com/in/maria-alejandra-otazu-/"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/mharale"><i class="fab fa-github"></i></a>
           </div>
         </div>
       </div>
@@ -81,6 +87,9 @@
           </div>
           <div class="card-footer">
             <a href="#">cintiasofiatai@gmail.com</a>
+            <br>
+            <a href="https://www.linkedin.com/in/cintiatai/"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/cintiatai"><i class="fab fa-github"></i></a>
           </div>
         </div>
       </div>
@@ -94,6 +103,9 @@
           </div>
           <div class="card-footer">
             <a href="#">matias.aquino@gmail.com</a>
+            <br>
+            <a href="https://www.linkedin.com/in/marcosnbl/"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/MatiasAGer"><i class="fab fa-github"></i></a>
           </div>
         </div>
       </div>
