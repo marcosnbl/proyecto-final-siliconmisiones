@@ -37,5 +37,20 @@ class CursosController extends Controller
         $cursos= Curso::all()->toArray();
         return view('listar-cursos', ['cursos'=>$cursos]);
     }
+    public function editar($id){
+        $curso = Curso::find($id);
+        return view("editar-cursos", compact('curso'));
+
+    }
+    public function actualizar(Request $request, Curso $curso){
+        $curso->nombre = $request->nombre;
+        $curso->imagen = $request->imagen;
+        $curso->descripcion_corta = $request->descripcion_corta;
+        $curso->descripcion_larga = $request->descripcion_larga;
+
+        $curso->save();
+        return redirect()->route('cursos.lista',$curso);
+
+    }
 }
 

@@ -11,13 +11,13 @@
             
 
             <div class="card card-body">
-                <form action="{{route('cursos.store')}}" method="POST">
+                <form action="{{route('cursos.store')}}" method="POST" enctype="multipart/form-data">
                     @csrf
                     <div class="form-group">
                         <input type="text" name="nombre" class="form-control" placeholder = "Curso Nuevo." autofocus>
                     </div>
                     <div class="form-group">
-                        <input type="img" name="imagen" class="form-control" placeholder = "Imagen." autofocus>
+                        <input type="file" name="imagen" accept=".pdf,.png,.jpg,.jpeg" class="form-control" placeholder = "Imagen." autofocus>
                     </div>
                     <div class="form-group">
                         <input type="text" name="descripcion_corta" class="form-control" placeholder = "Descripcion Corta." autofocus>

@@ -56,7 +56,7 @@
     </div>
     <!-- /.row -->
 
-    <!-- Contact Form - Ver Carpeta Mail -->
+    <!-- Contact Form  -->
     
       @include("formcontacto")
     <!-- /.row -->

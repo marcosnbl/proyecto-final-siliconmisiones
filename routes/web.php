@@ -24,4 +24,6 @@ Route::get('gestion', [CursosController::class,"lista"])->name('cursos.lista');
 Route::post('cursos', [CursosController::class,"store"])->name('cursos.store');
 Route::get('contacto', [ContactoController::class,'index'])->name('contacto.index'); 
 Route::post('contacto', [ContactoController::class,'store'])->name('contacto.store');
-Route::get('cursos/{id}', [CursosController::class,'showDetails'])->name('cursos.showDetails'); 
+Route::get('cursos/{id}', [CursosController::class,'showDetails'])->name('cursos.showDetails');
+Route::get('editarcursos/{id}', [CursosController::class,'editar'])->name('cursos.editar'); 
+Route::put('cursos/{curso}', [CursosController::class,'actualizar'])->name('cursos.actualizar'); 
