@@ -32,14 +32,22 @@
                 <td>{{$curso['descripcion_larga']}}</td>
                 <td>{{$curso['created_at']}}</td>
                 <td>
-                  <a href="{!! route('cursos.editar',$curso) !!}" class="btn btn-secondary">
-                  <i class="fas fa-marker"></i>
-                  </a>
-                  <form action = "{{route('cursos.destroy',$curso)}}" method="POST">
+                  
+                  <form>
+                    <button type="submit">
+                    <a href="{!! route('cursos.editar',$curso) !!}" class="">
+                    Actualizar
+                    </a>
+                    </button>
+                  </form>
+                  <br>
+                  
+                  <form action = "{{route('cursos.destroy',$curso)}}" method="POST" >
                     @csrf
                     @method('delete')
-                    <button type="submit"><i class="far fa-trash-alt"></i><button>
+                    <button type="submit" >Eliminar<button> 
                   </form>
+
                 </td>
                 
 
