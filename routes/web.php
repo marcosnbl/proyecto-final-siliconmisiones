@@ -5,7 +5,6 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\CursosController;
 use App\Http\Controllers\ContactoController;
-use App\Http\Controllers\CrateController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -27,4 +26,4 @@ Route::post('contacto', [ContactoController::class,'store'])->name('contacto.sto
 Route::get('cursos/{id}', [CursosController::class,'showDetails'])->name('cursos.showDetails');
 Route::get('editarcursos/{id}', [CursosController::class,'editar'])->name('cursos.editar'); 
 Route::put('cursos/{curso}', [CursosController::class,'actualizar'])->name('cursos.actualizar');
-//**Route::delete('cursos/{curso}', [CursosController::class,'eliminar'])->name('cursos.eliminar');**\\
+Route::delete('cursos/{id}', [CursosController::class,'destroy'])->name('cursos.destroy');
