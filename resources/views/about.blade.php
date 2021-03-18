@@ -49,7 +49,7 @@
           <div class="card-body">
             <h4 class="card-title mb-3">Marcos Benitez Lisoski</h4>
             <h5 class="card-subtitle mb-3 text-muted">QA Analyst & Frontend Developer</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
+            <p class="card-text">Soy un apasionado por la tecnología, la calidad y la mejora de los procesos en la experiencia de los clientes. Me encanta aprender, resolver problemas y superar mis propios límites a través de la mejora gradual y continua, pensando en grande y a largo plazo.</p>
           </div>
           <div class="card-footer">
             <a href="#">mblisoski@gmail.com</a>

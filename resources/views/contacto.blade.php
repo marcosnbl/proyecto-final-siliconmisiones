@@ -22,7 +22,7 @@
     <div class="row">
       <!-- Columna de Mapa -->
       <div class="col-lg-8 mb-4">
-        <!-- Google Map -->
+        <!-- Google Map -->    
         <iframe style="width: 100%; height: 400px; border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20041.37607571562!2d-55.909678476797666!3d-27.380454819731955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9457bff4dc4616a7%3A0xf9a242b603ca1f2b!2sSilicon%20Misiones!5e0!3m2!1ses!2sar!4v1615299151772!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
       </div>
       <!-- Columna de Detalles de Contacto -->

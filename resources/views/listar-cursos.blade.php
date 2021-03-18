@@ -35,9 +35,11 @@
                   <a href="{!! route('cursos.editar',$curso) !!}" class="btn btn-secondary">
                   <i class="fas fa-marker"></i>
                   </a>
-                  <a href="{!! route('cursos.editar',$curso) !!}" class="btn btn-danger">
-                  <i class="far fa-trash-alt"></i>
-                  </a>
+                  <form action = "{{route('cursos.destroy',$curso)}}" method="POST">
+                    @csrf
+                    @method('delete')
+                    <button type="submit"><i class="far fa-trash-alt"></i><button>
+                  </form>
                 </td>
                 
 
