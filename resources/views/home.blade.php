@@ -3,11 +3,15 @@
 @section('title','Home')
 
 @section('content')
+
+
+
 <section class="hero">
     <div class="contenido-hero">
 
     </div>
 </section>
+
 
     <!-- .contenido-hero-->
 
@@ -33,13 +37,68 @@
             </div>
             <p>Documentaciones traducidas al español, para que puedas aprender mejor.</p>
         </div>
+        
     </section>
 
-
-
-
+    
+ 
     <!-- Equipo -->
+    
     <main class="contenedor ">
+    <section class="buscador ">
+    
+    </section>
+
+    <nav class="col">
+                        
+                        <ul class="nav nav-pills py-3">
+        
+                            
+                            <li class="nav-item mb-2 mb-lg-0">
+                                <a href="{!! route('cursos.index') !!}" class="nav-link shadow-sm">
+                                    <i class="fas fa-layer-group"></i>
+                                    Todos los cursos
+                                </a>
+                            </li>
+
+                            
+                            <li class="nav-item dropdown mb-2 mb-lg-0">
+                                <a class="nav-link dropdown-toggle dropdown-toggle shadow-sm" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fas fa-tags"></i>
+                                    Categorías
+                                </a>
+        
+                                <div class="dropdown-menu">
+        
+                                                                            <a class="dropdown-item" rel="nofollow" href="{!! route('cursos.index') !!}">Desarrollo web</a>
+                                                                            <a class="dropdown-item" rel="nofollow" href="{!! route('cursos.index') !!}">Diseño web</a>
+                                                                            <a class="dropdown-item" rel="nofollow" href="{!! route('cursos.index') !!}">Programación</a>
+                                                                        
+                                </div>
+                            </li>
+
+                            
+                            
+
+                            <input list="cursos_disponibles" />
+			                <datalist id="cursos_disponibles">
+				            <option value="Javascript"></option>
+				            <option value="HTML5"></option>
+				            <option value="CSS3"></option>
+				            <option value="Python"></option>
+			                </datalist>
+                            <div class="input-group-append">
+                            <button class="btn btn-danger" type="submit">Buscar</button>
+                            </div>
+                    
+                        </ul>
+        
+                    </nav>
+                    
+                    </section>
+<br>
+<br>
+
         <h2>Nuestro Equipo</h2>
         <div class="nuestro-equipo">
             <div class="card ">
@@ -67,7 +126,7 @@
             </div>
 
             <div class="card ">
-                <img class="developer" src="imgs/matias.jpg" class="card-img-top" alt="...">
+                <img class="developer" src="imgs/matias.jpeg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Matías Aquino Gerega</h5>
                     <p class="card-text">Backend Developer</p>

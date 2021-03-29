@@ -95,7 +95,7 @@
       </div>
       <div class="col-lg-3 mb-4">
         <div class="card h-100 text-center">
-          <img class="card-img-top" src="imgs/matias.jpg" alt="">
+          <img class="" height="250" width="253" src="imgs/matias.jpeg" alt="">
           <div class="card-body">
             <h4 class="card-title mb-3">Matias Aquino Gerega</h4>
             <h5 class="card-subtitle mb-3 text-muted">Backend Developer</h5>
